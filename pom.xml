@@ -16,6 +16,8 @@
         <rest-assure>5.4.0</rest-assure>
         <extentreports>5.0.9</extentreports>
         <junit>5.8.2</junit>
+        <drivermanager>5.5.3</drivermanager>
+        <selenium>4.18.1</selenium>
     </properties>
     <dependencies>
         <dependency>
@@ -51,5 +53,17 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${drivermanager}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium}</version>
+        </dependency>
+
+
     </dependencies>
 </project>
